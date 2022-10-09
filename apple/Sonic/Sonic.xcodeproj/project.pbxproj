@@ -7,76 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BAD9F0E28F23B5100AFEAEB /* SonicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD9F0D28F23B5100AFEAEB /* SonicApp.swift */; };
-		2BAD9F1028F23B5100AFEAEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD9F0F28F23B5100AFEAEB /* ContentView.swift */; };
-		2BAD9F1228F23B5200AFEAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD9F1128F23B5200AFEAEB /* Assets.xcassets */; };
-		2BAD9F1528F23B5200AFEAEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD9F1428F23B5200AFEAEB /* Preview Assets.xcassets */; };
+		2BBB88D628F24BAE004AFC27 /* SonicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB88D528F24BAE004AFC27 /* SonicApp.swift */; };
+		2BBB88D828F24BAE004AFC27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB88D728F24BAE004AFC27 /* ContentView.swift */; };
+		2BBB88DA28F24BAF004AFC27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB88D928F24BAF004AFC27 /* Assets.xcassets */; };
+		2BBB88DD28F24BAF004AFC27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB88DC28F24BAF004AFC27 /* Preview Assets.xcassets */; };
+		2BF31A1928F24C6300A0ED6A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF31A1828F24C6300A0ED6A /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BAD9F0A28F23B5100AFEAEB /* Sonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BAD9F0D28F23B5100AFEAEB /* SonicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonicApp.swift; sourceTree = "<group>"; };
-		2BAD9F0F28F23B5100AFEAEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2BAD9F1128F23B5200AFEAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BAD9F1428F23B5200AFEAEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BBB88D228F24BAE004AFC27 /* Sonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBB88D528F24BAE004AFC27 /* SonicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonicApp.swift; sourceTree = "<group>"; };
+		2BBB88D728F24BAE004AFC27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BBB88D928F24BAF004AFC27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBB88DC28F24BAF004AFC27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BF31A1628F24C6300A0ED6A /* Sonic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sonic.entitlements; sourceTree = "<group>"; };
+		2BF31A1828F24C6300A0ED6A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BAD9F0728F23B5100AFEAEB /* Frameworks */ = {
+		2BBB88CF28F24BAE004AFC27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF31A1928F24C6300A0ED6A /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BAD9F0128F23B5100AFEAEB = {
+		2BBB88C928F24BAE004AFC27 = {
 			isa = PBXGroup;
 			children = (
-				2BAD9F0C28F23B5100AFEAEB /* Sonic */,
-				2BAD9F0B28F23B5100AFEAEB /* Products */,
+				2BBB88D428F24BAE004AFC27 /* Sonic */,
+				2BBB88D328F24BAE004AFC27 /* Products */,
+				2BF31A1728F24C6300A0ED6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2BAD9F0B28F23B5100AFEAEB /* Products */ = {
+		2BBB88D328F24BAE004AFC27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BAD9F0A28F23B5100AFEAEB /* Sonic.app */,
+				2BBB88D228F24BAE004AFC27 /* Sonic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BAD9F0C28F23B5100AFEAEB /* Sonic */ = {
+		2BBB88D428F24BAE004AFC27 /* Sonic */ = {
 			isa = PBXGroup;
 			children = (
-				2BAD9F0D28F23B5100AFEAEB /* SonicApp.swift */,
-				2BAD9F0F28F23B5100AFEAEB /* ContentView.swift */,
-				2BAD9F1128F23B5200AFEAEB /* Assets.xcassets */,
-				2BAD9F1328F23B5200AFEAEB /* Preview Content */,
+				2BF31A1628F24C6300A0ED6A /* Sonic.entitlements */,
+				2BBB88D528F24BAE004AFC27 /* SonicApp.swift */,
+				2BBB88D728F24BAE004AFC27 /* ContentView.swift */,
+				2BBB88D928F24BAF004AFC27 /* Assets.xcassets */,
+				2BBB88DB28F24BAF004AFC27 /* Preview Content */,
 			);
 			path = Sonic;
 			sourceTree = "<group>";
 		};
-		2BAD9F1328F23B5200AFEAEB /* Preview Content */ = {
+		2BBB88DB28F24BAF004AFC27 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2BAD9F1428F23B5200AFEAEB /* Preview Assets.xcassets */,
+				2BBB88DC28F24BAF004AFC27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BF31A1728F24C6300A0ED6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF31A1828F24C6300A0ED6A /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BAD9F0928F23B5100AFEAEB /* Sonic */ = {
+		2BBB88D128F24BAE004AFC27 /* Sonic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BAD9F1828F23B5200AFEAEB /* Build configuration list for PBXNativeTarget "Sonic" */;
+			buildConfigurationList = 2BBB88E028F24BAF004AFC27 /* Build configuration list for PBXNativeTarget "Sonic" */;
 			buildPhases = (
-				2BAD9F0628F23B5100AFEAEB /* Sources */,
-				2BAD9F0728F23B5100AFEAEB /* Frameworks */,
-				2BAD9F0828F23B5100AFEAEB /* Resources */,
+				2BBB88CE28F24BAE004AFC27 /* Sources */,
+				2BBB88CF28F24BAE004AFC27 /* Frameworks */,
+				2BBB88D028F24BAE004AFC27 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +98,25 @@
 			);
 			name = Sonic;
 			productName = Sonic;
-			productReference = 2BAD9F0A28F23B5100AFEAEB /* Sonic.app */;
+			productReference = 2BBB88D228F24BAE004AFC27 /* Sonic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2BAD9F0228F23B5100AFEAEB /* Project object */ = {
+		2BBB88CA28F24BAE004AFC27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					2BAD9F0928F23B5100AFEAEB = {
+					2BBB88D128F24BAE004AFC27 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 2BAD9F0528F23B5100AFEAEB /* Build configuration list for PBXProject "Sonic" */;
+			buildConfigurationList = 2BBB88CD28F24BAE004AFC27 /* Build configuration list for PBXProject "Sonic" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +124,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2BAD9F0128F23B5100AFEAEB;
-			productRefGroup = 2BAD9F0B28F23B5100AFEAEB /* Products */;
+			mainGroup = 2BBB88C928F24BAE004AFC27;
+			productRefGroup = 2BBB88D328F24BAE004AFC27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BAD9F0928F23B5100AFEAEB /* Sonic */,
+				2BBB88D128F24BAE004AFC27 /* Sonic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BAD9F0828F23B5100AFEAEB /* Resources */ = {
+		2BBB88D028F24BAE004AFC27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BAD9F1528F23B5200AFEAEB /* Preview Assets.xcassets in Resources */,
-				2BAD9F1228F23B5200AFEAEB /* Assets.xcassets in Resources */,
+				2BBB88DD28F24BAF004AFC27 /* Preview Assets.xcassets in Resources */,
+				2BBB88DA28F24BAF004AFC27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BAD9F0628F23B5100AFEAEB /* Sources */ = {
+		2BBB88CE28F24BAE004AFC27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BAD9F1028F23B5100AFEAEB /* ContentView.swift in Sources */,
-				2BAD9F0E28F23B5100AFEAEB /* SonicApp.swift in Sources */,
+				2BBB88D828F24BAE004AFC27 /* ContentView.swift in Sources */,
+				2BBB88D628F24BAE004AFC27 /* SonicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2BAD9F1628F23B5200AFEAEB /* Debug */ = {
+		2BBB88DE28F24BAF004AFC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +219,7 @@
 			};
 			name = Debug;
 		};
-		2BAD9F1728F23B5200AFEAEB /* Release */ = {
+		2BBB88DF28F24BAF004AFC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +273,16 @@
 			};
 			name = Release;
 		};
-		2BAD9F1928F23B5200AFEAEB /* Debug */ = {
+		2BBB88E128F24BAF004AFC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sonic/Sonic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sonic/Preview Content\"";
+				DEVELOPMENT_TEAM = 25LXMH3U8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = skeswa.Sonic;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sandile.Sonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +303,16 @@
 			};
 			name = Debug;
 		};
-		2BAD9F1A28F23B5200AFEAEB /* Release */ = {
+		2BBB88E228F24BAF004AFC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sonic/Sonic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sonic/Preview Content\"";
+				DEVELOPMENT_TEAM = 25LXMH3U8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = skeswa.Sonic;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sandile.Sonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BAD9F0528F23B5100AFEAEB /* Build configuration list for PBXProject "Sonic" */ = {
+		2BBB88CD28F24BAE004AFC27 /* Build configuration list for PBXProject "Sonic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BAD9F1628F23B5200AFEAEB /* Debug */,
-				2BAD9F1728F23B5200AFEAEB /* Release */,
+				2BBB88DE28F24BAF004AFC27 /* Debug */,
+				2BBB88DF28F24BAF004AFC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BAD9F1828F23B5200AFEAEB /* Build configuration list for PBXNativeTarget "Sonic" */ = {
+		2BBB88E028F24BAF004AFC27 /* Build configuration list for PBXNativeTarget "Sonic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BAD9F1928F23B5200AFEAEB /* Debug */,
-				2BAD9F1A28F23B5200AFEAEB /* Release */,
+				2BBB88E128F24BAF004AFC27 /* Debug */,
+				2BBB88E228F24BAF004AFC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BAD9F0228F23B5100AFEAEB /* Project object */;
+	rootObject = 2BBB88CA28F24BAE004AFC27 /* Project object */;
 }
