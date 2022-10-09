@@ -43,7 +43,9 @@
 				2BBB88D328F24BAE004AFC27 /* Products */,
 				2BF31A1728F24C6300A0ED6A /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		2BBB88D328F24BAE004AFC27 /* Products */ = {
 			isa = PBXGroup;
